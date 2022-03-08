@@ -1,0 +1,10 @@
+(begin
+    (def abs (value)
+        (if (< value 0)
+            -value
+            value
+        )
+    )
+
+    (var MAX 1000)
+)
