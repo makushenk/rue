@@ -1,5 +1,4 @@
 const Environment = require("./environment");
-const Stack = require("./stack");
 const Transformer = require("./transformer");
 const Parser = require("../parser/parser");
 
@@ -40,7 +39,6 @@ const OperationCode = {
     DECREMENT: "DECREMENT"
 }
 
-const executionStack = new Stack();
 const astTransformer = new Transformer();
 
 const GLOBAL_ENV = new Environment({
